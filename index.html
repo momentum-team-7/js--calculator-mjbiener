@@ -10,20 +10,42 @@
 </head>
 <body>
     <div class= "calculator">
-        <div class= "top row">
-        <!-- <table>
+        <!-- <div class= "top row"> -->
+        <table>
             <tr>
-                <td> -->
-            <button class="clear" data-action="clear">C</button> 
-            <div class="display">
-                <div data-result class= "display"></div>
-        
-                <!-- </td>
+                <td><button class="clear" data-action="clear">C</button></td> 
+                <td> <input type="text" class="display"/></td>          
             </tr>
-        </table> -->
-        
+            
+            <tr>
+                <td><button class="number">7</button></td>
+                <td><button class="number">8</button></td>
+                <td><button class="number">9</button></td>
+                <td><button class="operator" data-action="divide">/</button></td>
+            </tr>
 
-        </div>
+            <tr>
+                <td><button class="number">4</button></td>
+                <td><button class="number">5</button></td>
+                <td><button class="number">6</button></td>
+                <td><button class="operator" data-action="multiply">X</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="number">1</button></td>
+                <td><button class="number">2</button></td>
+                <td><button class="number">3</button></td>
+                <td><button class="operator" data-action="subtract">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="number">0</button></td>
+                <td><button class="decimal" data-action="decimal">.</button></td>
+                <td><button class="equal" data-action="calculate">=</button></td>
+                <td><button class="operator" data-action="add">+</button></td>
+            </tr>
+        </table>    
+        <!-- </div>
 
         <div class= "buttons">
             
@@ -46,10 +68,10 @@
             <button class="decimal" data-action="decimal">.</button>
             <button class="equal" data-action="calculate">=</button>
             <button class="operator" data-action="add">+</button>
-            <!-- <button class="clear" data-action="clear">C</button> -->
+            <button class="clear" data-action="clear">C</button> -->
             
 
-        </div>
+        <!-- </div> -->
     <!-- </table> -->
     </div>  
 </body>
